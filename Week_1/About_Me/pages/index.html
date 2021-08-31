@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>About Me</title>
+    <!--CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Script Files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm  navbar-light nav justify-content-center">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="">About Me</a>   
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Project 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Project 2</a>
+        </li>
+    
+      </ul>
+    </nav>
+    <div class="container">      
+      <div class="container">
+        <br>
+        <div class="row">
+          <div class="col-4">
+            <div class="card">
+              <img class="card-img-top" src="..\Photos\Kayla.png" alt="Photo of Kayla.">
+              <h2>Kayla Rude</h2>
+              <h5>
+                <p>(She/Her)</p>
+                <p>Major: Computer Science</p>
+                <p>Minor: Technology Art & Media</p>
+              </h5>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="descrip">
+              <h3>General Info</h3>
+              <p>
+                  My name is Kayla Rude and I am currently a senior in the computer science department at CU Boulder. 
+                  I am finally back in Boulder after spending the past year and a half back in my hometown in northern Illinois.
+                  I grew up in the Chicagoland area and perpetually remain on the hunt for decent pizza in Boulder (no Cosmos is not decent pizza). 
+                  I have a variety of hobbies all of which tap into my creative side. I am passionate about mental health and 
+                  disability advocacy. I am an avid photographer and am an LA for the image class within ATLAS. 
+                  I think there is something incredibly powerful about crafting an image or piece of content that shares your unique perspective of the world. 
+                  Finally the hobby that I am most passionate about is nail art. Over the course of the pandemic doing nail art and sharing it with my Instagram community has helped me feel connected. 
+              </p>
+              <h3>Goals for the class</h3>
+              <p>
+                My goal for this class is to gain a better understanding of front end web development. 
+                I just finished software development and methods so I have an advanced knowledge of database systems and learned a lot of HTML, javascript, and CSS in that class. 
+                My passion lies in creating accessible technology. I want to work on front end development and creating interfaces accessible to everyone.
+                I hope that this class will touch on some accesibility content and pushes students to consider how their designes will be received by the disabled community.  
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" style="margin-top: 30px; color: rgb(0, 0, 0);">
+      <h1 style="text-align: center;">Photography</h1>
+      <div class="row"> 
+        <div class="column">
+          <img src="..\Photos\Line_Burst.jpg" style="width:100%">
+          <img src="..\Photos\Amaica -10.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="..\Photos\Fountain_Burst.jpg" style="width:100%">
+          <img src="..\Photos\Small_Fountain_Burst.jpg" style="width:100%">
+          <img src="..\Photos\Amaica -9.jpg" style="width:100%">
+        </div>  
+        <div class="column">
+          <img src="..\Photos\Fountain.jpg" style="width:100%">
+          <img src="..\Photos\Crowd_Burst (2).jpg" style="width:100%">
+          <img src="..\Photos\Field1.jpg" style="width:100%">
+        </div>
+      </div>
+    </div>
+</body>
+</html>
+<style>
+    body{
+        background: -webkit-gradient(linear, left top, left bottom, from(#a9d0e7), to(#be85cf)) fixed;
+        font-family: 'Poppins',sans-serif;
+    }
+    .Goal{
+        font-family: 'Poppins',sans-serif ;
+        font-size: x-large;
+        font-weight: bolder;
+        text-shadow: black;
+        text-align: match-parent;
+    }
+    .descrip p{
+        display: inline-block;
+        text-align: left;
+        font-family:'Poppins',sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        border-color: #9b59b6;
+        border-radius: 5px;
+        background: rgb(255, 246, 254);
+        box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+        max-width: 600px;
+        max-height: 600px;
+        padding: 10px;
+    }
+    .card-img-top{
+
+        padding-top: 30px;
+    }
+    .card{
+        background: none;
+        border: none;
+    }
+    * { 
+        box-sizing: border-box;
+    }
+
+    .row {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    .column {
+        -ms-flex: 33%; /* IE10 */
+        flex: 33%;
+        max-width: 33%;
+        padding: 0 4px;
+    }
+
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 800px) {
+        .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+        }
+    }
+/* Navigation Bar */
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+  font-family:'Poppins',sans-serif;
+  font-weight: bold;
+  border: 4cm;
+  color: black;
+}
+.navbar ul{
+  background-color: rgb(255, 255, 255);
+  border-width: thin;
+  border-style: solid;
+  border-color: #9b59b6;
+  border-radius:5px;
+  border-bottom-width: 2px
+}
+.nav-item{
+  color: black;
+}
+
+</style>
