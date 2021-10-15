@@ -1,0 +1,61 @@
+#quotesection{
+    background: #252424;
+    margin: 30vh 30vw;
+    padding: 8vh 10vw 10vh 10vw;
+    border-radius: 8px;
+    -ms-flex: 33%; /* IE10 */
+    flex: 33%;
+    max-width: 50%;
+    -ms-flex-align: center;
+}
+
+body{
+    background: -webkit-gradient(linear, left top, left bottom, from(#99FFCC), to(#9966CC)) fixed;
+    font-family: 'Poppins',sans-serif;
+} 
+
+button{
+    border-radius: 8px;
+    padding: 1vh 3vw;
+    float: right;
+    margin-top: 1vh;
+    background-color: black;
+    color: #e8eaed;
+    font-family:"Open Sans";
+    font-weight:bold;
+    bottom:300px;
+    right:600px;
+    align-items: center;
+}
+
+button:hover{
+    border: #fff solid 1px;
+}
+
+button:active{
+    color: #c3c6c9;
+}
+
+h1{
+    color: #e8eaed;
+    font-family:"EB Garamond";
+    font-weight: 200;
+}
+
+#flex{
+    display: flex;
+    margin: 150px;
+}
+
+div{
+    border: 1px solid black;
+    margin-left: 2vw;
+}
+
+.flexitem{
+    flex-grow: 1;
+}
+
+.flexitem2{
+    flex-grow: 2;
+}
